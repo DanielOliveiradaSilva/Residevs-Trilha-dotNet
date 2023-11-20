@@ -1,1 +1,169 @@
-#### Repositorio de .Net 
+#### Para testa <a href="/P001.NET.ipynb"> P001.NET.ipynb</a> Pré Requisto:
+Instalação do Jumpter <br>
+Instalaçaõ do Kernel .NET<br>
+<a href="https://github.com/dotnet/interactive/blob/main/docs/NotebookswithJupyter.md">dontNet interater</a>
+Para visualizar o Arquivo Marckdown de Forma apropriada use a extensão
+Markdown Preview Enhanced
+ctrl + shift + k para abrir a tela
+
+
+#### Instrução Prática .NET P001
+
+##### 1. Configuração do Ambiente:
+
+<p style="text-align: justify">
+    Como você pode verificar se o .NET SDK está corretamente instalado em seu sistema? Em um arquivo de texto ou Markdown, liste os comandos que podem ser usados para verificar a(s) versão(ões) do .NET SDK instalada(s), como remover e atualizar.
+</p>
+Para verificar se o .NET SDK está corretamente instalado no seu sistema, podemos utilizar alguns metodos:
+
+**1.1 Verificar a versão instalada via linha de comando:**
+```bash
+    dotnet --version
+```
+Isso retornará a versão do SDK .NET instalada no sistema, se estiver corretamente configurada.
+
+**1.2. Listar os SDKs instalados:**
+Utilize o comando abaixo para listar todos os SDKs .NET instalados no seu sistema:
+```bash
+    dotnet --list-sdks
+```
+Isso mostrará todas as versões do SDK .NET que estão atualmente instaladas.
+
+**1.3. Criar e executar um projeto de teste:**
+Criando um projeto de test usando o .NET CLI e tentar compilá-lo e executá-lo para verificar se o SDK está funcionando corretamente. Por exemplo,criar um novo projeto usando o comando em um `diretorio especifico`:
+
+<a href="https://learn.microsoft.com/pt-br/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-7-0">Abrir o Tutoria</a>
+ Gera o arquivo build do projeto, configura seu ambiente de trabalho.
+```bash
+    dotnet new console -o MeuApp
+```
+Após a configuração do ambiente, inicialize seu projeto na pasta de desenvolvimento usando o termina com o seguinte comando:
+
+```bash
+    dotnet run
+```
+Estando tudo certo... aparecerá "Hellow Word!"
+Done.
+
+##### 2. Tipos de Dados:
+<p>
+Quais são os tipos de dados numéricos inteiros disponíveis no .NET? Dê
+exemplos de uso para cada um deles através de exemplos.
+</p>
+No .NET, existem vários tipos de dados numéricos inteiros disponíveis. Alguns dos tipos de dados numéricos inteiros mais comuns são:
+
+`sbyte:` epresenta números inteiros de 8 bits com sinal;
+`byte: ` Representa números inteiros de 8 bits sem sinal.
+`short:` Representa números inteiros de 16 bits com sinal.
+`ushort:` Representa números inteiros de 16 bits sem sinal.
+`int:`  Representa números inteiros de 32 bits com sinal (mais comum).
+`uint:` Representa números inteiros de 32 bits sem sinal
+`long:` Representa números inteiros de 64 bits com sinal.
+
+`ulong:` Representa números inteiros de 64 bits sem sinal.
+
+Exemplos de uso podem incluir a declaração e atribuição de valores a variáveis desses tipos de dados, bem como operações matemáticas simples:
+```csharp
+    int a = 10;
+    int b = 5;
+    int soma = a + b; // Operação de adição
+
+    long grandeNumero = 1234567890123456789L; // O sufixo 'L' indica que é um literal longo
+
+    byte idade = 25;
+    ushort codigo = 5000;
+
+    short temperatura = -15;
+    sbyte valor = -50;
+
+```
+##### 3. Conversão de Tipos de Dados:
+<p>
+    Suponha que você tenha uma variável do tipo double e deseja convertê-la em um tipo int. Como você faria essa conversão e o que aconteceria se a parte fracionária da variável double não pudesse ser convertida em um int? Resolva o problema através de um exemplo em C#.
+</p>
+Resposta:<br>
+Ao tentar realizar a conversão de um double para um int, a parte decimal do double é truncada, ou seja, removida sem arredondamento. Se a parte fracionária do double não puder ser representada como um número inteiro, o valor será truncado para o número inteiro mais próximo em direção a zero.
+
+Aqui está um exemplo que mostra como essa conversão pode ser feita em C#:
+```csharp
+    //C#
+    #region 
+    double numeroDouble = 10.8; // Exemplo de um número double com parte fracionária
+    int numeroInteiro = (int)numeroDouble; // Conversão explícita de double para int
+
+    Console.WriteLine("Valor double: " + numeroDouble);
+    Console.WriteLine("Valor convertido para int: " + numeroInteiro);
+    #endregion
+```
+Arquivo com o codigo fonte:
+<a href="/AreaTeste.ipynb">Area de Teste</a>
+
+##### 4. Operadores Aritméticos:
+Dada a variável int x = 10 e a variável int y = 3, escreva código para calcular e exibir o resultado da adição, subtração, multiplicação e divisão de x por y.
+```csharp
+    //c#
+    int x = 10;
+    int y = 3;
+    double result;
+    result = x + y;
+
+    Console.WriteLine($"Soma:\n{x} + {y} é: " + (x+y));
+    Console.WriteLine($"Divisão:\n{x} - {y} é: " + (x- y));
+    Console.WriteLine($"Multiplicação:\n{x} é {y} é: " + (x*y));
+    Console.WriteLine($"Divisão:\n{x}/{y} é: {((double)x/(double)y):F2}");
+```
+###### 5. Operadores de Comparação:
+Problema: Considere as variáveis int a = 5 e int b = 8. Escreva código para determinar se a é maior que b e exiba o resultado.
+
+###### 6. Operadores de Igualdade:
+Problema: Você tem duas strings, string str1 = "Hello" e string str2 = "World". Escreva código para verificar se as duas strings são iguais e exibir o resultado.
+
+```csharp
+   string str1 = "Hello";
+    string str2 = "World";
+
+    // Verifica se as duas strings são iguais usando o operador ==
+
+
+    // Exibe o resultado da comparação
+    if (str1 == str2){
+        Console.WriteLine("As strings são iguais.");
+    }
+    else{
+        Console.WriteLine("As strings são diferentes.");
+    }
+```
+
+###### 7. Operadores Lógicos:
+Problema: Suponha que você tenha duas variáveis booleanas, bool condicao1 = true
+e bool condicao2 = false. Escreva código para verificar se ambas as condições são
+verdadeiras e exiba o resultado.
+By Daniel Oliveira da Silva.
+
+
+```csharp
+    bool condicao1 = true;
+    bool condicao2 = false;
+    if(condicao1 == true && condicao2 ==true ){
+        Console.WriteLine("true");
+    }else{
+        Console.WriteLine("false");
+    }
+```
+
+###### 8. Desafio de Mistura de Operadores:
+Problema: Dadas as variáveis int num1 = 7, int num2 = 3, e int num3 = 10, escreva
+código para verificar se num1 é maior do que num2 e se num3 é igual a num1 + num2.
+
+```csharp
+   int num1 = 7;
+    int num2 = 3;
+    int num3 = 10;
+
+    if(num1 > num2){
+        Console.WriteLine($"{num1} é maior que {num2}");
+    }
+    if(num3 == (num1+num2)){
+        Console.WriteLine($"{num3} é igual a ({num1} + {num2}) ");
+    }
+```
