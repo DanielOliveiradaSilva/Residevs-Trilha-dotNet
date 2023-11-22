@@ -1,0 +1,15 @@
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/bin/Debug/net7.0/SistemaToDo
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/bin/Debug/net7.0/SistemaToDo.deps.json
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/bin/Debug/net7.0/SistemaToDo.runtimeconfig.json
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/bin/Debug/net7.0/SistemaToDo.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/bin/Debug/net7.0/SistemaToDo.pdb
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.csproj.AssemblyReference.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.AssemblyInfoInputs.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.AssemblyInfo.cs
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.csproj.CoreCompileInputs.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/refint/SistemaToDo.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.pdb
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/SistemaToDo.genruntimeconfig.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/Debug/net7.0/ref/SistemaToDo.dll
