@@ -23,8 +23,8 @@ class Medicos : Pessoa {
     public List<(string nome, DateTime dataNascimento, string cpf, string crm)> getMedicos() {
         return listaDeMedicos;
     }
-    List<(string nome, DateTime dataNascimento, string cpf, string sexo, string sintomas)> ObterMedicosComIdadeEntre(List<(string nome, DateTime dataNascimento, string cpf, string sexo, string sintomas)> pacientes, int idadeMinima, int idadeMaxima){
+    List<(string nome, DateTime dataNascimento, string cpf, string sexo, string sintomas)> obterMedicosComIdadeEntre(int idadeMinima, int idadeMaxima){
             DateTime hoje = DateTime.Today;
-            return pacientes.Where(p => (hoje.Year - p.dataNascimento.Year) >= idadeMinima && (hoje.Year - p.dataNascimento.Year) <= idadeMaxima).ToList();
+            return  listaDeMedicos.Where(p => (hoje.Year - p.dataNascimento.Year) >= idadeMinima && (hoje.Year - p.dataNascimento.Year) <= idadeMaxima).ToList();
     }
 }

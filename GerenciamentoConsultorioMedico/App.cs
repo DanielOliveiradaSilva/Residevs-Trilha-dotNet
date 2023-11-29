@@ -113,6 +113,7 @@ class App{
         medicos.adicionarMedico();
         exibirMedicos(medicos);
 
+
         // Pacientes pacientes = new Pacientes("John Doe", DateTime.Parse("1990-01-01"), "1234567890", "Male", "Fever, Cough");
         // pacientes.adicionarPaciente();
         // exibirPacientes(pacientes);
@@ -120,25 +121,24 @@ class App{
     }
     
 
-    public static void exibirPacientes(Pacientes pacientes) {
+    public static void exibirPacientes(List<(string nome, DateTime dataNascimento, string cpf, string sexo, string sintomas)> ListaDepacietes) {
     
         System.Console.WriteLine("Lista de Pacientes: ");
-        foreach (var item in pacientes.getPacientes())
+        foreach (var item in ListaDepacietes)
         {   
             System.Console.WriteLine($"{item.nome} - {item.dataNascimento} - {item.cpf} - {item.sexo} - {item.sintomas}");
         }
     }
 
 
-    public static void exibirMedicos( Medicos medicos) {
+    public static void exibirMedicos(List<(string nome, DateTime dataNascimento, string cpf, string crm)> listaDeMedicos) {
 
         System.Console.WriteLine("Lista de Medicos: ");
-        foreach (var item in medicos.getMedicos())
+        foreach (var item in listaDeMedicos())
         {
-            
             System.Console.WriteLine($"{item.nome} - {item.dataNascimento} - {item.cpf} - {item.crm}");
         }
     }
-    
+
  }
     
