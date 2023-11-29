@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "GerenciarEstoque/1.0.0": {
+      "GerenciamentoConsultorioMedico/1.0.0": {
         "runtime": {
-          "GerenciarEstoque.dll": {}
+          "GerenciamentoConsultorioMedico.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "GerenciarEstoque/1.0.0": {
+    "GerenciamentoConsultorioMedico/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
