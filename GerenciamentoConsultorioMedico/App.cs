@@ -7,7 +7,7 @@ class App{
     {
         while (true)
         {
-            Console.Write(men);
+            Console.Write(mensagem);
             string sexo = Console.ReadLine()!;
 
             if (sexo.ToLower() == "masculino")
@@ -111,7 +111,7 @@ class App{
         
         Medicos medicos = new Medicos("Daniel", DateTime.Parse("2000-01-01"), "12345678910", "123456789");
         medicos.adicionarMedico();
-        exibirMedicos(medicos);
+        //exibirMedicos(medicos);
 
 
         // Pacientes pacientes = new Pacientes("John Doe", DateTime.Parse("1990-01-01"), "1234567890", "Male", "Fever, Cough");
