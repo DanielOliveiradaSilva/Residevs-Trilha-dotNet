@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gAByMCDYeqb5TOXepieYK6lNINZFpljInsaSaRbvsQ4FLS+vDOIoqLi94fEB35E62+5hoIIlIixz6kFQy98qFA==",
+  "dgSpecHash": "4IfhVqBmoBuSgcjnxfTKx9covsUTNfETJ84ltk6NLhY8MvDLaimXwjbKOMKw7j+N5lJDNkO7bzb34MRmuuRtKw==",
   "success": true,
-  "projectFilePath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/GerenciarEstoque.csproj",
+  "projectFilePath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/GerenciamentoConsultorioMedico.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

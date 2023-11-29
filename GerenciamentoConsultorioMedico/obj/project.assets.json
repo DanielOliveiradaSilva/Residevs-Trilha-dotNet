@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/GerenciarEstoque.csproj",
-      "projectName": "GerenciarEstoque",
-      "projectPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/GerenciarEstoque.csproj",
+      "projectUniqueName": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/GerenciamentoConsultorioMedico.csproj",
+      "projectName": "GerenciamentoConsultorioMedico",
+      "projectPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/GerenciamentoConsultorioMedico.csproj",
       "packagesPath": "/home/daniel/.nuget/packages/",
-      "outputPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/",
+      "outputPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/daniel/.nuget/NuGet/NuGet.Config"

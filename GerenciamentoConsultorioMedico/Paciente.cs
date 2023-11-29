@@ -1,6 +1,5 @@
-using System;
-class Paciente :Pessoa
-{   
+
+class Paciente :Pessoa{   
     string sexo;
     string sintomas;
 }

@@ -1,0 +1,15 @@
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.csproj.AssemblyReference.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.AssemblyInfoInputs.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.AssemblyInfo.cs
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.csproj.CoreCompileInputs.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/bin/Debug/net7.0/GerenciamentoConsultorioMedico
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/bin/Debug/net7.0/GerenciamentoConsultorioMedico.deps.json
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/bin/Debug/net7.0/GerenciamentoConsultorioMedico.runtimeconfig.json
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/bin/Debug/net7.0/GerenciamentoConsultorioMedico.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/bin/Debug/net7.0/GerenciamentoConsultorioMedico.pdb
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/refint/GerenciamentoConsultorioMedico.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.pdb
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/GerenciamentoConsultorioMedico.genruntimeconfig.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciamentoConsultorioMedico/obj/Debug/net7.0/ref/GerenciamentoConsultorioMedico.dll
