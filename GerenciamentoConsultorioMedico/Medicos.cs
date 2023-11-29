@@ -17,7 +17,7 @@ class Medicos : Pessoa {
         this.crm = crm;
     }
     
-    public void adicionarPaciente() {
+    public void adicionarMedico() {
         listaDeMedicos.Add((this.nome, this.dataNascimento, this.cpf, this.crm));
     }
     public List<(string nome, DateTime dataNascimento, string cpf, string crm)> getMedicos() {
