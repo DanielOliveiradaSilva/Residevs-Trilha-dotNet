@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/SistemaToDo.csproj",
+      "projectUniqueName": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/SistemaToDo.csproj",
       "projectName": "SistemaToDo",
-      "projectPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/SistemaToDo.csproj",
+      "projectPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/SistemaToDo.csproj",
       "packagesPath": "/home/daniel/.nuget/packages/",
-      "outputPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/SistemaToDo/obj/",
+      "outputPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/daniel/.nuget/NuGet/NuGet.Config"
