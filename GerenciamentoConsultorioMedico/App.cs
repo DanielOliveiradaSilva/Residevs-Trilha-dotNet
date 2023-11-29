@@ -1,6 +1,32 @@
 namespace GerenciamentoConsultorioMedico;
 class App{
 
+    #region validar dados de entrada
+
+    static void ValidarSexo(string mensagem)
+    {
+        while (true)
+        {
+            Console.Write(men);
+            string sexo = Console.ReadLine()!;
+
+            if (sexo.ToLower() == "masculino")
+            {
+                Console.WriteLine("Sexo masculino válido.");
+                break;
+            }
+            else if (sexo.ToLower() == "feminino")
+            {
+                Console.WriteLine("Sexo feminino válido.");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Sexo inválido. Digite novamente.");
+            }
+        }
+    }
+  
     public DateTime ObterDataNascimentoValida()
     {
         DateTime dataNascimento;
@@ -9,7 +35,7 @@ class App{
         do
         {
             Console.Write("Digite a data de nascimento (dd/mm/aaaa): ");
-            string input = Console.ReadLine();
+            string input = Console.ReadLine()!;
             
             if (DateTime.TryParseExact(input, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out dataNascimento))
             {
@@ -37,7 +63,7 @@ class App{
         do
         {
             Console.Write(mensagem);
-            str = Console.ReadLine();
+            str = Console.ReadLine()!;
             
             if (string.IsNullOrEmpty(str))
             {
@@ -79,7 +105,7 @@ class App{
         }
     }
 
-   
+     #endregion
 
     public static void Main(){
         
@@ -98,15 +124,14 @@ class App{
     
         System.Console.WriteLine("Lista de Pacientes: ");
         foreach (var item in pacientes.getPacientes())
-        {
-            
+        {   
             System.Console.WriteLine($"{item.nome} - {item.dataNascimento} - {item.cpf} - {item.sexo} - {item.sintomas}");
         }
     }
 
 
     public static void exibirMedicos( Medicos medicos) {
-    
+
         System.Console.WriteLine("Lista de Medicos: ");
         foreach (var item in medicos.getMedicos())
         {
@@ -114,5 +139,6 @@ class App{
             System.Console.WriteLine($"{item.nome} - {item.dataNascimento} - {item.cpf} - {item.crm}");
         }
     }
+    
  }
     

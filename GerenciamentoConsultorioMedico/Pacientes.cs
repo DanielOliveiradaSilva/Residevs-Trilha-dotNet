@@ -27,4 +27,9 @@ class Pacientes : Pessoa{
     public List<(string nome, DateTime dataNascimento, string cpf, string sexo, string sintomas)> getPacientes() {
         return listaDePacientes;
     }
+    public List<(string nome, DateTime dataNascimento, string cpf, string sexo, string sintomas)> getPacientesComIdadeEntre(int idadeMinima, int idadeMaxima)
+    {
+        DateTime hoje = DateTime.Today;
+        return listaDePacientes.Where(p => (hoje.Year - p.dataNascimento.Year) >= idadeMinima && (hoje.Year - p.dataNascimento.Year) <= idadeMaxima).ToList();
+    }
 }
