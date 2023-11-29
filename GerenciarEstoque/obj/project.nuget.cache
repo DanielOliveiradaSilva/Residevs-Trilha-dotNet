@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zDP5qevCdvkndxQHCrTSHXTSerkVEo7KxB7FyYAKqd/OgxavzALB3uMoJyHaQdYtch+ixJch7VqzYXkpUlYb9w==",
+  "dgSpecHash": "gAByMCDYeqb5TOXepieYK6lNINZFpljInsaSaRbvsQ4FLS+vDOIoqLi94fEB35E62+5hoIIlIixz6kFQy98qFA==",
   "success": true,
-  "projectFilePath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/SistemaToDo.csproj",
+  "projectFilePath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/GerenciarEstoque.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

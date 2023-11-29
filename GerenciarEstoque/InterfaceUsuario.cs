@@ -63,6 +63,7 @@ class InterfaceUsuario{
         float preco = ObterInput<float>("Digite o preço do produto: ");
         var novoProduto = (codigo, produto, qtd, preco);
         string mensagem = gerenciarEstoque.cadastrarProduto(novoProduto)?"Produto Cadastrado!":"Produto já cadastrado!";   
+        Console.WriteLine(mensagem);
     }
 
     public static void AppInterface(){

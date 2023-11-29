@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/SistemaToDo.csproj",
-      "projectName": "SistemaToDo",
-      "projectPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/SistemaToDo.csproj",
+      "projectUniqueName": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/GerenciarEstoque.csproj",
+      "projectName": "GerenciarEstoque",
+      "projectPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/GerenciarEstoque.csproj",
       "packagesPath": "/home/daniel/.nuget/packages/",
       "outputPath": "/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/",
       "projectStyle": "PackageReference",

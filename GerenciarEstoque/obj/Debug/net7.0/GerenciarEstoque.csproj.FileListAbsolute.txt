@@ -1,0 +1,15 @@
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/bin/Debug/net7.0/GerenciarEstoque
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/bin/Debug/net7.0/GerenciarEstoque.deps.json
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/bin/Debug/net7.0/GerenciarEstoque.runtimeconfig.json
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/bin/Debug/net7.0/GerenciarEstoque.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/bin/Debug/net7.0/GerenciarEstoque.pdb
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.csproj.AssemblyReference.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.AssemblyInfoInputs.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.AssemblyInfo.cs
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.csproj.CoreCompileInputs.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/refint/GerenciarEstoque.dll
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.pdb
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/GerenciarEstoque.genruntimeconfig.cache
+/home/daniel/Área de Trabalho/GitHub/Residevs-Trilha-dotNET/GerenciarEstoque/obj/Debug/net7.0/ref/GerenciarEstoque.dll
